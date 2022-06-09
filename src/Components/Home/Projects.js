@@ -4,6 +4,7 @@ import project2 from '../Assets/project2.png'
 import project3 from '../Assets/project3.png'
 import project4 from '../Assets/project4.png'
 import project5 from '../Assets/project5.png'
+import Project from './Project';
 
 const Projects = () => {
     const projects =[
@@ -16,17 +17,10 @@ const Projects = () => {
     return (
         <div>
             <h1 className='text-center text-5xl'>My <span className='text-center text-5xl text-orange-700'>Projects</span></h1>
-            <div>
-                <div class="card w-96 bg-base-100 shadow-xl image-full">
-                    <figure><img src="https://api.lorem.space/image/shoes?w=400&h=225" alt="Shoes" /></figure>
-                    <div class="card-body">
-                        <h2 class="card-title">Shoes!</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
-                        <div class="card-actions justify-end">
-                            <button class="btn btn-primary">Buy Now</button>
-                        </div>
-                    </div>
-                </div>
+            <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-6 mx-auto px-3 lg:px-10 mt-8'>
+               {
+                   projects.map(project=><Project key={project.id} project={project}></Project>)
+               }
             </div>
         </div>
     );
