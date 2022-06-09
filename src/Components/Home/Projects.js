@@ -8,11 +8,11 @@ import Project from './Project';
 
 const Projects = () => {
     const projects =[
-        {id:1, Name:'TOOLTICARP', img:project1,live:'https://assignment-12-eef58.web.app/',client:'https://github.com/HameemH/Toolticarp-client-assign12', server:'https://github.com/HameemH/Toolticarp-server-assign12'},
-        {id:2, Name:'Jonto Inventory', img:project2,live:'https://assignment11-3ec5e.web.app/',client:'https://github.com/HameemH/J-inventory-client-assign11', server:'https://github.com/HameemH/J-inventory-server-assign11'},
-        {id:3, Name:'Adorsho Book Shop', img:project3,live:'https://assignment-00008.netlify.app/',client:'https://github.com/HameemH/Adorsho-book-shop-assign08', server:''},
-        {id:4, Name:'Becha-Kena Sikkha', img:project4,live:'https://assignment-x-68d60.web.app/home',client:'https://github.com/HameemH/Bechakena-sikkha-assign10', server:''},
-        {id:5, Name:'Digitronics', img:project5,live:'https://assignment-0009.netlify.app/',client:'https://github.com/HameemH/Digitronics-assign09', server:''}
+        {id:1, Name:'TOOLTICARP', description:'A full-stack(MERN) Tool manufacturer website', img:project1,live:'https://assignment-12-eef58.web.app/',client:'https://github.com/HameemH/Toolticarp-client-assign12', server:'https://github.com/HameemH/Toolticarp-server-assign12'},
+        {id:2, Name:'Jonto Inventory', description:'A full-stack Inventory(MERN) management website',img:project2,live:'https://assignment11-3ec5e.web.app/',client:'https://github.com/HameemH/J-inventory-client-assign11', server:'https://github.com/HameemH/J-inventory-server-assign11'},
+        {id:3, Name:'Adorsho Book Shop', description:'A React Based Book wishlist Website', img:project3,live:'https://assignment-00008.netlify.app/',client:'https://github.com/HameemH/Adorsho-book-shop-assign08', server:''},
+        {id:4, Name:'Becha-Kena Sikkha', description:'A react based Website with firebase login Integrated', img:project4,live:'https://assignment-x-68d60.web.app/home',client:'https://github.com/HameemH/Bechakena-sikkha-assign10', server:''},
+        {id:5, Name:'Digitronics', description:'A Website Mainly focused on React Router', img:project5,live:'https://assignment-0009.netlify.app/',client:'https://github.com/HameemH/Digitronics-assign09', server:''}
     ]
     return (
         <div>

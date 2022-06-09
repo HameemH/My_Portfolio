@@ -49,7 +49,8 @@ const Banner = () => {
       <FaTwitterSquare className='text-5xl m-4 text-orange-700   hover:text-orange-500'></FaTwitterSquare>
       </div>
       <div>
-         <a href="https://drive.google.com/uc?export=download&id=1Tg3jI6w4VaS2f4Ii_iJbKEgLlfcNtmbf"> <button className='btn btn-outline  hover:bg-orange-700 border border-orange-700 text-orange-700'>Download Resume</button></a>
+         <a target="_blank" href="https://drive.google.com/uc?export=download&id=1Tg3jI6w4VaS2f4Ii_iJbKEgLlfcNtmbf"> <button className='btn btn-outline  hover:bg-orange-700 border border-orange-700 text-orange-700'>Download Resume</button></a>
+         <a target="_blank" href="https://drive.google.com/file/d/1Tg3jI6w4VaS2f4Ii_iJbKEgLlfcNtmbf/view?usp=sharing"> <button className='btn btn-outline  hover:bg-orange-700 border border-orange-700 text-orange-700'>See Resume</button></a>
       </div>
         </div>
     );
