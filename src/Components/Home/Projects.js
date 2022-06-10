@@ -5,6 +5,8 @@ import project3 from '../Assets/project3.png'
 import project4 from '../Assets/project4.png'
 import project5 from '../Assets/project5.png'
 import Project from './Project';
+import backgroundLightedited from '../Assets/backgroundLightedited.jpg';
+
 
 const Projects = () => {
     const projects =[
@@ -15,7 +17,7 @@ const Projects = () => {
         {id:5, Name:'Digitronics', description:'A Website Mainly focused on React Router', img:project5,live:'https://assignment-0009.netlify.app/',client:'https://github.com/HameemH/Digitronics-assign09', server:''}
     ]
     return (
-        <div className='min-h-[100vh] ' id='projects'>
+        <div className='min-h-[100vh] bg-gradient-to-r from-cyan-800 via-cyan-900 to-cyan-800 ' id='projects' >
           <div className='mt-10'>
           <h1 className='text-center text-5xl ' >My <span className='text-center text-5xl text-orange-700'>Projects</span></h1>
             <div className='grid  grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-6 mx-auto px-3 lg:px-10 mt-8'>

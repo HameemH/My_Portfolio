@@ -19,7 +19,7 @@ const Contact = () => {
        
       
     return (
-        <div id='contact' className='mt-7 flex justify-center items-center px-5' style={{
+        <div id='contact' className='flex justify-center items-center px-5' style={{
             background: `url(${backgroundLightedited})`,
             backgroundPosition: 'center',
             backgroundSize: 'cover',
