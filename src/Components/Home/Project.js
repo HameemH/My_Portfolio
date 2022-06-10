@@ -11,7 +11,7 @@ const Project = ({ project }) => {
     return (
         <div className=''>
             <div class="card  bg-base-100 shadow-xl">
-                <figure class="px-10 mt-5 pt-10 overflow-y-scroll overflow-clip min-h-96">
+                <figure class="px-10 mt-5 pt-10 overflow-y-scroll overflow-clip max-h-96">
                     <img src={img} className=' min-w-full' alt="Projects" class="rounded-xl" />
                 </figure>
                 <div class="card-body  ">

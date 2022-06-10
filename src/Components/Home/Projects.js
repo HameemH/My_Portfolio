@@ -73,7 +73,6 @@ const Projects = () => {
       ]
     },
 
-
   ]
   return (
     <div className='min-h-[100vh] bg-slate-300 py-5  ' id='projects' >
