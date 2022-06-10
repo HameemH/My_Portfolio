@@ -9,7 +9,7 @@ const Project = ({ project }) => {
 
     return (
         <div>
-            <div class="card lg:w-96 h-96 bg-base-100 shadow-xl  image-full">
+            <div class="card  h-96 bg-base-100 shadow-xl  image-full">
                 <figure><img src={img} alt="Shoes" /></figure>
                 <div class="card-body opacity-0 transition duration-300 ease-out hover:ease-in hover:opacity-100">
                     <div className='flex justify-between '>
