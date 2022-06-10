@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import Details from './Details';
 
 const Project = ({ project }) => {
-    const { id, Name, img, live, client, server, description } = project;
+    const { id, Name, img, live, client, server, description, } = project;
     console.log(live);
     console.log(project);
 
@@ -11,7 +11,7 @@ const Project = ({ project }) => {
     return (
         <div className=''>
             <div class="card  bg-base-100 shadow-xl">
-                <figure class="px-10 mt-5 pt-10 overflow-y-scroll overflow-clip max-h-96">
+                <figure class="px-10 mt-5 pt-10 overflow-y-scroll overflow-clip min-h-96">
                     <img src={img} className=' min-w-full' alt="Projects" class="rounded-xl" />
                 </figure>
                 <div class="card-body  ">

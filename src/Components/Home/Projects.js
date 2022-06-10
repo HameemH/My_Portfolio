@@ -28,7 +28,15 @@ const Projects = () => {
       live: 'https://assignment-12-eef58.web.app/',
       client: 'https://github.com/HameemH/Toolticarp-client-assign12',
       server: 'https://github.com/HameemH/Toolticarp-server-assign12',
-      techs: ["React", 'Javascript', 'Tailwind', ' Node js', ' Express js', 'MongoDB', ' Stripe', ' Firebase',]
+      techs: ["React", 'Javascript', 'Tailwind', ' Node js', ' Express js', 'MongoDB', ' Stripe', ' Firebase',],
+      points:
+      ["Admin has its own side which user can't see, and it can control websites activity.",
+       'User also have their own options at dashboard which admin cant see.' ,
+       'User can pay by their card using stripe.',
+       "It has firebase google and email login system",
+       "Items added by admin will show first at homepage and old products will show last.",
+       
+    ]
     },
     {
       id: 2,
@@ -38,7 +46,14 @@ const Projects = () => {
       live: 'https://assignment11-3ec5e.web.app/',
       client: 'https://github.com/HameemH/J-inventory-client-assign11',
       server: 'https://github.com/HameemH/J-inventory-server-assign11',
-      techs: ['React', 'CSS', ' Javascript', 'Bootstrap', 'Node js', 'Express js', 'MongoDB', 'Firebase']
+      techs: ['React', 'CSS', ' Javascript', 'Bootstrap', 'Node js', 'Express js', 'MongoDB', 'Firebase'],
+      points:
+      ["Home page has a banner and other 3 section along with header and footer.",
+      'At the home page there is always 6 products in the produtcs section.',
+      "At the inventory every product is shown with the items added by user.",
+      "You can login or register with your email and password or with google account.",
+      'At my items page you can see products added by user filtering users email.',
+      ]
     },
     {
       id: 3,
@@ -49,7 +64,13 @@ const Projects = () => {
       live: 'https://assignment-00008.netlify.app/',
       client: 'https://github.com/HameemH/Adorsho-book-shop-assign08',
       server: '',
-      techs:['React','JSX','CSS','Javascript','Fontawesome']
+      techs:['React','JSX','CSS','Javascript','Fontawesome'],
+      points:[
+        'Its a Website Based On React.',
+        "Data is loaded by fake data using Fetch.",
+        "User Can Chose Books For their Wish list",
+        'Chose 1 for me button will chose random books From wishlist'
+      ]
     },
 
 
