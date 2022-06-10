@@ -19,7 +19,7 @@ const Contact = () => {
        
       
     return (
-        <div id='contact' className='flex justify-center items-center px-5' style={{
+        <div id='contact' className='flex w-full justify-center items-center px-5' style={{
             background: `url(${backgroundLightedited})`,
             backgroundPosition: 'center',
             backgroundSize: 'cover',
@@ -30,7 +30,7 @@ const Contact = () => {
 
             height: '100vh'
         }}>
-            <div class="card lg:w-2/4  bg-gradient-to-tr bg-opacity-80 shadow-xl">
+            <div class="card lg:w-2/4  bg-opacity-80 shadow-xl">
                 
                 <div class="card-body items-center text-center">
                 <h2 class="card-title text-orange-700 text-2xl">You Can Send Me Messege From Here.</h2>

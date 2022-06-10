@@ -9,9 +9,9 @@ const Project = ({ project }) => {
 
     return (
         <div>
-            <div class="card lg:w-lg h-96 bg-base-100 shadow-xl shadow-slate-900 image-full">
+            <div class="card lg:w-96 h-96 bg-base-100 shadow-xl  image-full">
                 <figure><img src={img} alt="Shoes" /></figure>
-                <div class="card-body opacity-0 transition duration-150 ease-out hover:ease-in hover:opacity-100">
+                <div class="card-body opacity-0 transition duration-300 ease-out hover:ease-in hover:opacity-100">
                     <div className='flex justify-between '>
                         <h2 class="card-title">{Name}</h2>
                         <a target="_blank" href={live}>    <button class="btn  hover:bg-transparent hover:border-orange-700 hover:text-orange-700 bg-orange-700  border border-orange-700">Live Site</button></a>
