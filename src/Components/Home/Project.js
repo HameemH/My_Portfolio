@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import Details from './Details';
 
@@ -6,8 +6,11 @@ const Project = ({ project }) => {
     const { id, Name, img, live, client, server, description, } = project;
     console.log(live);
     console.log(project);
-
-
+    
+    const [detailproject, setDetailproject] = useState(null);
+    console.log(detailproject);
+ 
+    
     return (
         <div className=''>
             <div class="card  bg-base-100 shadow-xl">
@@ -25,11 +28,13 @@ const Project = ({ project }) => {
                         {
                             server === '' ? null : <a target="_blank" href={server}>    <button class="btn  hover:bg-transparent hover:border-orange-700 hover:text-orange-700 bg-orange-700  border border-orange-700">Server Code</button></a>
                         }
-                        <label for='my-modal' class="btn  hover:bg-transparent hover:border-orange-700 hover:text-orange-700 bg-orange-700  border border-orange-700">Details</label>
+                        <label for='my-modal' onClick={()=>setDetailproject(project)} class="btn  hover:bg-transparent hover:border-orange-700 hover:text-orange-700 bg-orange-700  border border-orange-700">Details</label>
                     </div>
                 </div>
             </div>
-            <Details project={project}></Details>
+          {
+              detailproject &&   <Details project={detailproject} setDetailproject={setDetailproject}></Details>
+          }
         </div>
     );
 };

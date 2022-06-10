@@ -1,10 +1,12 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 
-const Details = ({ project }) => {
+const Details = ({ project, setDetailproject }) => {
+    
     const { Name, img, img1, img2, techs, live, client, server, description, points } = project;
     console.log(techs);
-    const { id } = useParams()
+    
+    console.log(project);
     return (
         <div>
             <input type="checkbox" id="my-modal" class="modal-toggle" />
@@ -37,14 +39,14 @@ const Details = ({ project }) => {
                     <div className='grid grid-cols-4 gap-2'>
                         {
 
-                            techs.map(tech => <p className='p-3 bg-slate-50'>{tech}</p>
+                            techs?.map(tech => <p className='p-3 bg-slate-50'>{tech}</p>
                             )
                         }</div>
                     {
-                        points.map(point => <p>-{point}</p>)
+                        points?.map(point => <p>-{point}</p>)
                     }
                     <div class="modal-action">
-                        <label for="my-modal" class="btn">Done</label>
+                        <label for="my-modal" onClick={()=>{setDetailproject(null)}} class="btn">Done</label>
                     </div>
                 </div>
             </div>
