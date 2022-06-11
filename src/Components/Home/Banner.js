@@ -12,7 +12,7 @@ const Banner = () => {
                   <div id='banner' className='flex w-full justify-center flex-col items-center  bg-slate-300 min-h-screen' >
 
 
-                        <div className='flex flex-col opacity-100'>
+                        <div className='flex font flex-col opacity-100'>
                               <h1 className='lg:text-6xl font-semibold mb-5  text-bold text-2xl lg:pr-5 opacity-100  inline-flex'>
                                     Hello, I am <span className='lg:text-6xl font-semibold text-2xl ml-2 text-orange-700'>
 
@@ -41,7 +41,7 @@ const Banner = () => {
                         </div>
                         <div className='flex my-6'>
                               <a target="_blank" href="https://github.com/HameemH"> <BsGithub className='text-5xl m-4 text-orange-700   hover:text-orange-500'></BsGithub></a>
-                              <a target="_blank" href="www.linkedin.com/in/hameem-hossain">  <BsLinkedin className='text-5xl m-4 text-orange-700   hover:text-orange-500'></BsLinkedin></a>
+                              <a target="_blank" href="https://www.linkedin.com/in/hameem-hossain">  <BsLinkedin className='text-5xl m-4 text-orange-700   hover:text-orange-500'></BsLinkedin></a>
                               <a target="_blank" href=""><FaTwitterSquare className='text-5xl m-4 text-orange-700   hover:text-orange-500'></FaTwitterSquare></a>
                         </div>
                         <div>
