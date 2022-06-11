@@ -7,9 +7,6 @@ function App() {
   return (
     <div >
       <Home></Home>
-      <Routes>
-       
-      </Routes>
       
     </div>
   );

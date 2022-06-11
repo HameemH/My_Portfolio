@@ -19,30 +19,29 @@ const Contact = () => {
        
       
     return (
-        <div id='contact' className='flex w-full justify-center items-center px-5' style={{
-            background: `url(${backgroundLightedited})`,
-            backgroundPosition: 'center',
-            backgroundSize: 'cover',
-            WebkitBackdropFilter: 'blur(8px)',
-            overflow: 'hidden',
-            backgroundBlendMode: 'multiply',
-            backgroundRepeat: 'no-repeat',
-
-            height: '100vh'
-        }}>
-            <div class="card lg:w-2/4  bg-opacity-80 shadow-xl">
+        <div id='contact' className='flex w-full min-h-screen flex-col justify-center items-center px-5' >
+            <div class="card lg:w-2/4  bg-opacity-80 ">
                 
                 <div class="card-body items-center text-center">
-                <h2 class="card-title text-orange-700 text-2xl">You Can Send Me Messege From Here.</h2>
+                <div className='relative text-center mb-3 flex flex-col'>
+          <h1 className='lg:text-9xl text-4xl opacity-5 font-bold text-center'>CONTACT</h1>
+          <h1 className='lg:text-6xl text-xl lg:mt-8 mt-1 absolute self-center'>CONNECT WITH ME</h1>
+        </div>
                     <form ref={form} onSubmit={sendEmail} className='flex flex-col' action="">
-                        <input name="to_name" type="text" placeholder='Your Name' className='border text-orange-600 px-4 py-2 placeholder:text-orange-600 border-orange-700 border-2 bg-zinc-900 my-3' />
-                        <input name="from_name" type="email" placeholder='Your Email' className='border text-orange-600 px-4 py-2 placeholder:text-orange-600 border-orange-700 border-2 bg-zinc-900 my-3'/>
-                        <textarea name="message" placeholder='Your Message' id="" className='border text-orange-600 px-4 py-2 placeholder:text-orange-600 border-orange-700 border-2 bg-zinc-900 my-3' cols="30" rows="10"></textarea>
+                      <div className='flex gap-6'>
+                      <input name="to_name" type="text" placeholder='Your Name' className='border px-3 text-orange-600 px-4 py-2 placeholder:text-orange-600 border-2 bg-slate-300 my-3' />
+                        <input name="from_name" type="email" placeholder='Your Email' className='border px-3 text-orange-600 px-4 py-2 placeholder:text-orange-600 border-2 bg-slate-300 my-3'/>
+                      </div>
+                      <input name="" type="text" placeholder='Your Subject' className='border px-3 text-orange-600 px-4 py-2 placeholder:text-orange-600 border-2 bg-slate-300 my-3'/>
+
+                        <textarea name="message" placeholder='Your Message' id="" className='border text-orange-600 px-4 py-2 placeholder:text-orange-600 border-2 bg-slate-300 my-3' cols="30" rows="10"></textarea>
                         <input type="submit"  value='Send Messege' className='btn btn-outline border hover:bg-orange-700 text-orange-700' />
 
                     </form>
                 </div>
             </div>
+            <div class="divider "></div>
+            <h1>BY HAMEEM HOSSAIN</h1>
         </div>
     );
 };

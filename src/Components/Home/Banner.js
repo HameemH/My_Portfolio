@@ -9,23 +9,12 @@ const Banner = () => {
             <div className=''>
                  
 
-                  <div id='banner' className='flex w-full justify-center flex-col items-center bg-opacity-0 ' style={{
-                        background: `url(${backgroundLightedited})`,
-                        backgroundPosition: 'center',
-                        backgroundSize: 'cover',
-
-                        WebkitBackdropFilter: 'blur(8px)',
-                        overflow: 'hidden',
-                        backgroundBlendMode: 'multiply',
-                        backgroundRepeat: 'no-repeat',
-
-                        height: '100vh'
-                  }}>
+                  <div id='banner' className='flex w-full justify-center flex-col items-center  bg-slate-300 min-h-screen' >
 
 
                         <div className='flex flex-col opacity-100'>
-                              <h1 className='lg:text-5xl mb-5 text-2xl lg:pr-5 opacity-100 text-white inline-flex'>
-                                    Hello, I am <span className='lg:text-5xl text-2xl ml-2 text-orange-700'>
+                              <h1 className='lg:text-6xl font-semibold mb-5  text-bold text-2xl lg:pr-5 opacity-100  inline-flex'>
+                                    Hello, I am <span className='lg:text-6xl font-semibold text-2xl ml-2 text-orange-700'>
 
                                           <TypeWriterEffect
 
@@ -36,8 +25,8 @@ const Banner = () => {
                                           ></TypeWriterEffect>
                                     </span>
                               </h1>
-                              <h1 className='lg:text-5xl  text-2xl lg:pr-5 lg:mr-8 text-white inline-flex'>
-                                    And I am a <span className='lg:text-5xl text-2xl ml-2 text-orange-700'>
+                              <h1 className='lg:text-6xl font-semibold text-2xl lg:pr-5 lg:mr-8 inline-flex'>
+                                    And I am a <span className='lg:text-6xl font-semibold text-2xl ml-2 text-orange-700'>
 
 
                                           <TypeWriterEffect
