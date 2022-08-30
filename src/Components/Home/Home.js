@@ -4,7 +4,6 @@ import Banner from './Banner';
 import Navbar from './Navbar';
 import Projects from './Projects';
 import Contact from './Contact';
-import { NavLink } from 'react-router-dom';
 import Sidenav from './Sidenav';
 
 const Home = () => {

@@ -9,11 +9,11 @@ const Banner = () => {
             <div className=''>
                  
 
-                  <div id='banner' className='flex w-full justify-center flex-col items-center  bg-slate-300 min-h-screen' >
+                  <div id='banner' className='flex w-full justify-center flex-col items-center  bg-black min-h-screen' >
 
 
                         <div className='flex font flex-col opacity-100'>
-                              <h1 className='lg:text-6xl font-semibold mb-5  text-bold text-2xl lg:pr-5 opacity-100  inline-flex'>
+                              <h1 className='lg:text-6xl font-semibold mb-5 text-white text-bold text-2xl lg:pr-5 opacity-100  inline-flex'>
                                     Hello, I am <span className='lg:text-6xl font-semibold text-2xl ml-2 text-orange-700'>
 
                                           <TypeWriterEffect
@@ -25,7 +25,7 @@ const Banner = () => {
                                           ></TypeWriterEffect>
                                     </span>
                               </h1>
-                              <h1 className='lg:text-6xl font-semibold text-2xl lg:pr-5 lg:mr-8 inline-flex'>
+                              <h1 className='lg:text-6xl font-semibold text-white text-2xl lg:pr-5 lg:mr-8 inline-flex'>
                                     And I am a <span className='lg:text-6xl font-semibold text-2xl ml-2 text-orange-700'>
 
 
